@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  background-color: #f2d1d1;
+  color: #570a57;
+}
+
+/************HEADER************/
+
+.headerTitle {
+  font-family: "Patrick Hand", cursive;
+  position: static;
+  top: 38%;
+  display: block;
+  min-height: auto;
+  min-width: auto;
+  margin: 2% 0 3%;
+  font-weight: 700;
+  background-clip: border-box;
+  font-size: 80px;
+}
+
+/*************TRANSLATEAREA*************/
+
+/*TextArea*/
+
+textarea {
+  border-style: hidden;
+  background-color: #ffe6e6;
+  font-size: 20px;
+  border-radius: 0.875rem;
+  font-family: "Signika", sans-serif;
+  font-weight: 100;
+  color: #595260;
+  padding: 12px 20px;
+}
+
+textarea:focus {
+  outline: 3px solid transparent;
+}
+
+textarea::placeholder {
+  color: #9d9d9d;
+}
+
+/*Button*/
+
+.translateButton {
+  background-color: #ffe6e6;
+  border: 1px solid #ffe6e6;
+  border-radius: 0.875rem;
+  box-sizing: border-box;
+  color: #570a57;
+  font-family: "Patrick Hand", cursive;
+  font-size: 0.875rem;
+  font-weight: 100;
+  line-height: 1rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: none;
+  margin: 20px;
+}
+
+.translateButton:hover {
+  border: 1px solid #570a57;
+}
+
+/**************FOOTER***********/
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #06113c;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #570a57;
+}
+
+.footer {
+  padding-top: 1%;
+}
+
+/********MEDIA QUERY******/
+
+@media (max-width: 1000px) and (min-width: 630px) {
+  .headerTitle {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 630px) and (min-width: 425px) {
+  .headerTitle {
+    font-size: 80px;
+    padding-top: 20%;
+  }
+}
+@media (max-width: 420px) {
+  .headerTitle {
+    font-size: 60px;
+    padding-top: 30%;
+  }
+}
